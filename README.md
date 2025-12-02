@@ -1,10 +1,17 @@
-# 🧠 Memory + Personality Engine (No LLM Version)
+# 🧠 Memory + Personality Engine
 
-A fully functional **Memory Extraction Module** and **Personality Engine** built without any LLM.  
+A fully functional **Memory Extraction Module** and **Personality Engine**.  
 This system analyzes user chat history (up to 30 messages), extracts structured memory,  
 generates a neutral response, and transforms it into different personalities.
 
 Perfect for AI assistant assignments, companion AI prototypes, and interviewing evaluations.
+
+---
+
+# ☁️ Deployment (Render — Free)
+
+- API: `https://memory-personality-engine.onrender.com`
+- Docs: `https://memory-personality-engine.onrender.com/docs`
 
 ---
 
@@ -106,10 +113,3 @@ uvicorn app.main:app --reload
 👉 http://127.0.0.1:8000/docs
 
 ---
-
-# ☁️ Deployment (Render — Free)
-
-- API: `https://memory-personality-engine.onrender.com`
-- Docs: `https://memory-personality-engine.onrender.com/docs`
-
-
