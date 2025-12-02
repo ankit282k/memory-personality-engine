@@ -107,15 +107,9 @@ uvicorn app.main:app --reload
 
 ---
 
-# ☁️ Deployment Guide (Render — Free)
+# ☁️ Deployment (Render — Free)
 
-### Build Command:
-```
-pip install -r requirements.txt
-```
+- API: `https://memory-personality-engine.onrender.com`
+- Docs: `https://memory-personality-engine.onrender.com/docs`
 
-### Start Command:
-```
-uvicorn app.main:app --host 0.0.0.0 --port 10000
-```
 
